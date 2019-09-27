@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="operations.js"></script>
+</head>
+<body>
+    <div id="container">
+    <div>
+        <input type ="text" id="screen" value=''>
+    </div>
+    <div class="button" id="AC" onclick="clearScreen('')" value=''>AC</div>
+    <div class="operator-button" onclick="getPercentage()" value="%">%</div>
+    <div class="operator-button" onclick="displayValue('/')" value='/'>/</div>
+    <div class="button" onclick="displayValue('1')" value='1'>1</div>
+    <div class="button" onclick="displayValue('2')" value='2'>2</div>  
+    <div class="button" onclick="displayValue('3')" value='3'>3</div>  
+    <div class="operator-button" onclick="displayValue('*')" value='*'>*</div>
+    <div class="button" onclick="displayValue('4')" value='4'>4</div>  
+    <div class="button" onclick="displayValue('5')" value='5'>5</div>  
+    <div class="button" onclick="displayValue('6')" value='6'>6</div> 
+    <div class="operator-button"  onclick="displayValue('-')" value='-'>-</div> 
+    <div class="button" onclick="displayValue('7')" value='7'>7</div>  
+    <div class="button" onclick="displayValue('8')" value='8'>8</div>  
+    <div class="button" onclick="displayValue('9')" value='9'>9</div>
+    <div class="operator-button"  onclick="displayValue('+')"value='+'>+</div>  
+    <div class="button" onclick="displayValue('0')" value='0'>0</div>
+    <div class="button" onclick="displayValue('.')" value='.'>.</div>
+    <div class="button" onclick="getResult()"id="equals">=</div>
+</div>
+</body>
+</html>
